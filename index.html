@@ -10,7 +10,7 @@
 <body>
   <h1>Jogo da Advinhação</h1>
   <div class="container">
-    <div class="difficulty-section">
+    <div id="difficulty-section">
       <label for="difficulty">Escolha a dificuldade: </label>
       <select name="difficulty" id="difficulty">
         <option value="" readonly>Selecione</option>
@@ -25,9 +25,9 @@
         <input type="text" id="guess" placeholder="Digite sua resposta aqui">
         <button id="guess-btn">Enviar</button>
       </div>
-      <p id="result">Texto...</p>
+      <p id="result"></p>
       <button id="reset-btn">Jogar novamente</button>
-      <p>Tentativas restantes: <span id="tries-left">5</span></p>
+      <p>Tentativas restantes: <span id="tries-left"></span></p>
     </div>
   </div>
 </body>
